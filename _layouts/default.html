@@ -4,6 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} | Savosky Wright</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Content writer specialising in Tech, Crypto and HR. Clear, research-driven writing that builds trust and drives action.{% endif %}" />
+  <meta name="author" content="Savosky Wright" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:title" content="{{ page.title }} | Savosky Wright" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Content writer specialising in Tech, Crypto and HR. Clear, research-driven writing that builds trust and drives action.{% endif %}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="Savosky Wright" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ page.title }} | Savosky Wright" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Content writer specialising in Tech, Crypto and HR. Clear, research-driven writing that builds trust and drives action.{% endif %}" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="stylesheet" href="/CSS/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
