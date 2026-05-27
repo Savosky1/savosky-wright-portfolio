@@ -15,4 +15,5 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: "select", options: ["Tech", "Crypto", "HR", "Content Writing", "Digital Marketing", "Education"]}
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
