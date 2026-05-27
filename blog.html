@@ -1,0 +1,42 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="sample-hero">
+  <div class="sample-hero-content">
+    <h1>Blog</h1>
+    <p class="sample-brief">Thoughts, insights, and practical guides on content writing, Tech, Crypto, and HR. Written for brands that want content that actually works.</p>
+  </div>
+</section>
+
+<section class="portfolio-section">
+  <div class="container">
+
+    {% if site.posts.size > 0 %}
+    <div class="portfolio-grid">
+      {% for post in site.posts %}
+      <div class="portfolio-card">
+        <div class="portfolio-card-top">
+          <span class="portfolio-tag">{{ post.category }}</span>
+          <span class="portfolio-type">Blog</span>
+        </div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description }}</p>
+        <div class="portfolio-card-bottom">
+          <span class="portfolio-brief">
+            <i class="fa-solid fa-calendar"></i> {{ post.date | date: "%B %d, %Y" }}
+          </span>
+          <a href="{{ post.url }}" class="btn-outline">Read Article</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="no-posts">
+      <p>No articles published yet. Check back soon.</p>
+    </div>
+    {% endif %}
+
+  </div>
+</section>

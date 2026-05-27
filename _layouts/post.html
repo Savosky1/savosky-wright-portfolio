@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<section class="sample-hero">
+  <div class="sample-hero-content">
+    <a href="/blog.html" class="back-link">
+      <i class="fa-solid fa-arrow-left"></i> Back to Blog
+    </a>
+    <div class="sample-meta">
+      <span class="portfolio-tag">{{ page.category }}</span>
+      <span class="portfolio-type">Blog</span>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="sample-brief">{{ page.description }}</p>
+    <div class="article-meta">
+      <span><i class="fa-solid fa-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</span>
+      <span><i class="fa-solid fa-tag"></i> {{ page.category }}</span>
+    </div>
+  </div>
+</section>
+
+<section class="sample-content">
+  <div class="sample-body">
+    {{ content }}
+  </div>
+</section>
+
+<section class="sample-cta">
+  <a href="/blog.html" class="btn-primary">
+    <i class="fa-solid fa-arrow-left"></i> Back to Blog
+  </a>
+  <a href="/contact.html" class="btn-outline">Work With Me</a>
+</section>
