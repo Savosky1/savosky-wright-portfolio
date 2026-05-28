@@ -3,6 +3,10 @@ description: Content Writer for Tech, Crypto and HR Brands
 url: "https://savosky-wright.netlify.app"
 baseurl: ""
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 
