@@ -20,3 +20,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+      exclude:
+  - admin/
+  - google31addf4a153a2066.html
+  - Gemfile
+  - Gemfile.lock
+  - netlify.toml
