@@ -52,7 +52,7 @@ You did not forget because you are careless. You studied at the wrong time and e
 
 That is not a memory problem. That is a timing problem.
 
-If you are also struggling to get people to find and read your content in the first place, read this next: [Why Most Blog Posts Never Get Read](https://savosky-wright.netlify.app/blog/2026/06/04/why-most-blog-posts-never-get-read-and-what-the-ones-that-do-have-in-common/)
+*If you are also struggling to get people to find and read your content in the first place, read this next:** [Why Most Blog Posts Never Get Read](https://savosky-wright.netlify.app/blog/2026/06/04/why-most-blog-posts-never-get-read-and-what-the-ones-that-do-have-in-common/)***
 
 And once you understand that, the solution becomes obvious.
 
