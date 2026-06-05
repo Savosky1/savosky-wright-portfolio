@@ -1675,3 +1675,43 @@ ul {
 .footer-links a:hover {
   color: #4F8EF7;
 }
+
+/* ================================
+   AUTHOR BIO
+================================ */
+.author-bio {
+  background-color: #f0f2f5;
+  border-top: 3px solid #1A56DB;
+  padding: 32px 24px;
+  margin: 40px 0 0 0;
+}
+
+.author-bio-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.author-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0D0F1A;
+  margin-bottom: 10px;
+}
+
+.author-bio-text p {
+  font-size: 0.95rem;
+  color: #444444;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.author-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1A56DB;
+  text-decoration: none;
+}
+
+.author-link:hover {
+  text-decoration: underline;
+}
