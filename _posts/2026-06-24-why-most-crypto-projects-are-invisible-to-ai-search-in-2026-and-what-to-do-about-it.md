@@ -58,8 +58,6 @@ And most crypto projects are still only building for the first one.
 
 # Here Is Why Discord and Telegram Are Actually Hurting Your Visibility
 
-![](/images/uploads/images-1-.jpeg)
-
 This is the part most founders have not really connected yet.
 
 The Web3 playbook was built around closed platforms. You build a Discord. You grow a Telegram group. You push updates, alpha, and long discussions inside those communities. Your most valuable content ends up going to your most engaged users.
